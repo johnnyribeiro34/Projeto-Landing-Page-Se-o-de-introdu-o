@@ -1,0 +1,100 @@
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(67, 170, 252, 1) 55%,
+    rgba(70, 246, 252, 0.5431672614487038) 100%
+  );
+}
+
+.header {
+  padding: 1rem;
+  margin-top: 1rem;
+  min-width: 850px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  min-width: 90px;
+}
+.header .container .logo {
+  transition: 0.4s;
+}
+.header .container .logo img {
+  width: 6rem;
+  transition: 1s;
+}
+.header .container .logo:hover {
+  opacity: 0.6;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 800px;
+}
+
+.hero .imagem-principal .img img {
+  width: 24rem;
+  height: 22rem;
+}
+
+.textos-imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 5rem;
+}
+.textos-imagens .textos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.textos-imagens .textos h1 {
+  font-size: 4rem;
+  width: 27rem;
+}
+
+.textos-imagens .textos p {
+  width: 25rem;
+  line-height: 1.5rem;
+  /* color: hsl(0, 0%, 41%) ; */
+  color: #fff;
+  font-weight: 500;
+}
+
+.textos-imagens .textos .botao a p {
+  background-color: hsl(0, 0%, 8%);
+  width: 13rem;
+  height: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 98%);
+  transition: 0.4s;
+}
+.textos-imagens .textos a p:hover {
+  opacity: 0.8;
+}
+
+.textos-imagens .imagens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 27rem;
+}
+
+.textos-imagens .imagens li img {
+  width: 5rem;
+}

@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  .hero .imagem-principal .img img {
+    width: 18rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .header .container .logo img {
+    width: 10rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+
+    margin: 50px 30px;
+  }
+
+  .textos-imagens .textos h1 {
+    width: 100%;
+    font-size: 6rem;
+  }
+
+  .textos-imagens .textos p {
+    width: 100%;
+    font-size: 1.9rem;
+    line-height: 3.5rem;
+  }
+
+  .textos-imagens .textos .botao {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textos-imagens .textos .botao a p {
+    width: 26rem;
+    height: 7rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textos-imagens .imagens {
+    width: 100%;
+  }
+
+  .textos-imagens .imagens li img {
+    width: 7rem;
+  }
+
+  .hero .imagem-principal .img img {
+    width: 550px;
+    height: 580px;
+  }
+}
+
+@media (max-width: 376px) {
+  .textos-imagens .imagens {
+    margin-top: 150px;
+  }
+  .textos-imagens .imagens li img {
+    width: 8.5rem;
+  }
+}
